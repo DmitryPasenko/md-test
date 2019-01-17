@@ -1,0 +1,53 @@
+{
+  "private": true,
+  "repository": "https://github.com/DmitryPasenko/md-test.git",
+  "scripts": {
+    "deploy": "now && now alias",
+    "start": "react-scripts start",
+    "now-start": "serve -s ./build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "pretty-quick --staged"
+  },
+  "devDependencies": {
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "enzyme-to-json": "^3.3.5",
+    "prettier": "1.15.3",
+    "react-scripts": "2.1.2",
+    "redux-mock-store": "^1.5.3",
+    "styled-components": "^4.1.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.7.1",
+    "@material-ui/icons": "^3.0.1",
+    "classnames": "^2.2.6",
+    "connected-react-router": "4.5.0",
+    "hoist-non-react-statics": "^3.2.1",
+    "immutable": "^4.0.0-rc.12",
+    "invariant": "^2.2.4",
+    "jest-enzyme": "^7.0.1",
+    "jest-styled-components": "^6.3.1",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.6.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-redux": "5.1.1",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "react-test-renderer": "^16.7.0",
+    "redux": "4.0.1",
+    "redux-immutable": "^4.0.0",
+    "redux-thunk": "2.3.0",
+    "reselect": "^4.0.0",
+    "sanitize.css": "7.0.3",
+    "serve": "10.1.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
