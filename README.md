@@ -36,7 +36,7 @@ yarn test
 
 In this project I'm using redux to store array of filtering options, arranged by category(size, color, price range etc.).
 Every option has 2 properties indicating whether this particular option is **checked** in corresponding menu dialog or **selected** which means applied as search filter.
-This approach allows to have one source of truth for entire application: menus, badges, selected filters always renders with valid data, valid state.      
+This approach allows to have single source of truth for entire application: menus, badges, selected filters always renders with valid data, valid state.      
 Also it gives an option to save/restore application state to localStorage if needed in later development(not implemented).
 
 ### Another possible approaches to consider (depending on real-world application requirements)
